@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117; /* Fond sombre style GitHub */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.container {
+    text-align: center;
+}
+canvas {
+    background-color: #161b22; /* Fond du canvas légèrement plus clair */
+    border: 4px solid #30363d;
+    border-radius: 6px;
+    image-rendering: pixelated; /* Évite le flou du pixel art */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+h1 {
+    color: #c9d1d9;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
